@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  width: 32%;
+  margin-bottom: 10;
+  height: 600px;
+  border: 1px solid;
+}
+.titulo {
+  color: rgb(26, 26, 170);
+}
+.imagen {
+  width: 100%;
+}
+.opaco {
+  color: rgb(78, 213, 51);
+}
+.conten {
+  color: rgb(34, 3, 32);
+  height: 120px;
+  border: solid 1px;
+  overflow: scroll;
+  background-color: rgb(233, 218, 200);
+}
+.conten::-webkit-scrollbar-thumb {
+  width: 3px;
+  background: rgb(51, 153, 33);
+  border-radius: 5px;
+}
